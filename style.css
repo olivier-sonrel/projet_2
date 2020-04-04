@@ -35,15 +35,15 @@ header{
 }
 
 a.linkhead{
-  #color: #565656;
+  color: #565656;
 }
 
 a.linkhead:link{
-  #color: #565656;
+  color: #565656;
 }
 
 a.linkhead:visited{
-  #color: #565656;
+  color: #565656;
 }
 
 .fas{
