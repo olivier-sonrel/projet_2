@@ -1,5 +1,6 @@
 body{
   font-family: arial, sans-serif;
+  color: #96989B;
 }
 
 a{
@@ -7,15 +8,20 @@ a{
 }
 
 a:link{
-  color: black;
+  color: #96989B;
   text-decoration: none;
 }
-a:visited{}
+
+a:visited{
+  color: #96989B;
+  text-decoration: none;
+}
+
 a:hover{
   text-decoration: underline;
 }
-a:active{}
 
+a:active{}
 
 main{
     display: flex;
@@ -28,6 +34,18 @@ header{
   justify-content: flex-end;
 }
 
+a.linkhead{
+  #color: #565656;
+}
+
+a.linkhead:link{
+  #color: #565656;
+}
+
+a.linkhead:visited{
+  #color: #565656;
+}
+
 .fas{
   color: #99A3A4;
 }
@@ -38,13 +56,13 @@ a.connexion{
   color: white;
 }
 
-
 .content{
   padding: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .search{
     border: 1px solid #D5DBDB;
     border-radius: 50px;
@@ -64,6 +82,10 @@ textarea{
 #button{
   display: flex;
   justify-content: center;
+}
+
+.button{
+  color: #96989B;
 }
 
 .langfooter{
